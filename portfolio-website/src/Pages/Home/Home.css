@@ -1,23 +1,50 @@
 .intro-container {
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 
-
-.my-image-wrapper{
-    margin-bottom: 1rem;
-    width: 5rem;
-    height: 5rem;
+.my_image {
+    background-image: linear-gradient(to left top, #419cda, white);
     border-radius: 50%;
-    /* background: grey; */
-    background-image: url("./Images/myImage.png");
-    background-size: cover;
+    height: 8rem;
+    width: 8rem;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
+    /* position: absolute;
+    top: -45%;
+    left: 45%; */
+  }
+
+  .my_image img:hover{
+    transform: rotate(360deg);
+    transition: 3s;
+  }
+  
+  .my_image img {
+    border-radius: 50%;
+    width: 8rem;
+    height: 8rem;
+    
+  }
+
+.short-intro-about-me h2{
+    margin-top: 2rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    color: #419cda;
+    
 }
 
-
+.digital {
+    color: rgb(181,87,153,);
+    text-shadow: 0 0 30px #419cda;
+    
+  }
 
 .short-intro-about-me p{
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-    background: green;
+    font-size: 0.8rem;
+    /* color: rgb(65,156,218); */
+    color: rgb(181,87,153);
+    /* background: green; */
 }

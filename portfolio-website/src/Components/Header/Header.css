@@ -1,7 +1,8 @@
 
 .blog-post-update-div{
-    background-color: rgb(60, 60, 194);
-    color: white;
+    /* background-color: rgb(65,156,218); */
+    background-color: rgb(181,87,153);
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
