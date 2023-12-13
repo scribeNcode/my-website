@@ -1,0 +1,23 @@
+.intro-container {
+    margin-top: 3rem;
+}
+
+
+
+.my-image-wrapper{
+    margin-bottom: 1rem;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    /* background: grey; */
+    background-image: url("./Images/myImage.png");
+    background-size: cover;
+}
+
+
+
+.short-intro-about-me p{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    background: green;
+}

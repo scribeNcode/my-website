@@ -1,0 +1,53 @@
+
+.blog-post-update-div{
+    background-color: rgb(60, 60, 194);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    height: 2rem;
+    line-height: 1.2rem;
+}
+
+.blog-post-update-div p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: red; */
+    font-size: 0.5rem;
+   
+    width: 70%;
+    letter-spacing: 1px;
+}
+
+.navigation-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+    /* background: yellow; */
+}
+
+.site-logo{
+    margin-left: 0.5rem;
+}
+
+.site-logo{
+    /* background: red; */
+    
+}
+
+nav{
+    display: flex;
+    justify-content:space-between;
+    gap: 0.5rem;
+    align-items: center;
+    margin-right: 0.5rem;
+    /* background: green; */
+}
+
+/* nav a{
+    margin-right: 1rem;
+} */
