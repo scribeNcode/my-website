@@ -1,24 +1,26 @@
 import "../Home/Home.css";
-import image from "./Images/myImage.png"
+import image from "./Images/myImage.png";
 
 function Home() {
   return (
     <div className="home-page-wrapper">
       <div className="intro-container">
-      <div className="my_image">
-              <img src={image} alt="my" />
-            </div>
+        <div className="my_image">
+          <img src={image} alt="my" />
+        </div>
+        {/* <h3 className="my-name">Adeyeye Boluwatife</h3>
+        <p className="my-name">Frontend Developer</p> */}
         {/* <div className="my-image-wrapper"></div> */}
         <div className="short-intro-about-me">
-          <h2>
+          <h3>
             I Build <span className="digital">Scalable Digital</span> Products
-          </h2>
+            {/* <a href="">I'm Boluwatife Adeyeye</a> . */}
+          </h3>
           <p>
-            <a href="">I am Boluwatife Adeyeye</a> (scribeNcode). A frontend
-            developer. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Sit asperiores aut reprehenderit quia a, quidem quo dolores
-            doloremque aperiam temporibus iure enim, quod atque! Laudantium
-            veritatis voluptas quas sunt dolores!
+        I'm a <span className="highlighted">Frontend
+            developer</span> . I make all sort of stuff with Typescript, JavaScript,
+            React and Vuejs. You can find my work on <a href="">GitHub</a>. I enjoy teaching and sharing about the things I build.
+            Check out my <a href="">writing</a>.I help people learn more about web development.
           </p>
         </div>
       </div>

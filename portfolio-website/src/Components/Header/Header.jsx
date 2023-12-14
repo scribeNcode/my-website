@@ -7,7 +7,8 @@ function Header() {
   }
   return (
     <>
-        <div className="blog-post-update-div">
+    <div className="home-page-wrapper">
+      <div className="blog-post-update-div">
           <p>A NEW BLOG POST JUST DROPPED CLICK HERE TO READ IT</p>
         </div>
         <div className="navigation-div">
@@ -16,7 +17,7 @@ function Header() {
              className="site-logo"
              style={({isActive})=> isActive ? activeStyle : null}
              >
-              scribeNcode
+              {`{scribeNcode}`}
               </NavLink>
 
             <nav>
@@ -42,6 +43,8 @@ function Header() {
                 </NavLink>
             </nav>
         </div>
+    </div>
+        
     </>
   )
 }
