@@ -25,7 +25,6 @@
         margin-left: 0.5rem;
     margin-right: 0.5rem;
     /* background: red; */
-
     letter-spacing: 1px;
 }
 
@@ -39,12 +38,12 @@
 
 .site-logo{
     margin-left: 0.5rem;
+    color: rgb(168, 12, 121);
+    font-weight: 1000;
+    text-decoration : none;
 }
 
-.site-logo{
-    /* background: red; */
-    
-}
+
 
 nav{
     display: flex;
@@ -55,6 +54,8 @@ nav{
     /* background: green; */
 }
 
-/* nav a{
-    margin-right: 1rem;
-} */
+nav a{
+    color: black;
+    text-decoration: none;
+    /* border-bottom: 1px solid red; */
+}
